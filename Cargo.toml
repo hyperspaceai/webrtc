@@ -10,6 +10,8 @@ members = [
     "rtcp",
     "rtp",
     "sctp",
+    "sctp-async",
+    "sctp-proto",
     "sdp",
     "srtp",
     "stun",

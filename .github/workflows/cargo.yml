@@ -2,9 +2,9 @@ name: cargo
 
 on:
   push:
-    branches: [master]
+    branches: [master, sctp-proto]
   pull_request:
-    branches: [master]
+    branches: [master, sctp-proto]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
